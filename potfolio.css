@@ -1,0 +1,195 @@
+* {
+  box-sizing: border-box;
+}
+
+header.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid rgb(97, 94, 94);
+  opacity: 0.7;
+}
+body {
+  padding-left: 2em;
+  padding-right: 2em;
+  background-color: azure;
+}
+main {
+  background-attachment: fixed;
+  background-color: aliceblue;
+}
+div.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 150px 130px 150px 155px;
+  gap: 1em 1em;
+}
+.anything a {
+  text-decoration: none;
+  color: black;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+#chopstix p::before {
+  content: "i'm chopstix001.i build web apps,<br>mobile apps,annd smart contracts across <br>";
+}
+
+.button {
+  background-color: black;
+}
+div.one {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: rgb(212, 210, 213);
+  transition: all 0.3s;
+}
+.resume a {
+  text-decoration: none;
+  color: black;
+}
+.boldtext span {
+  color: rgb(70, 91, 83);
+  font-style: italic;
+}
+div.two {
+  background-color: rgb(212, 210, 213);
+  transition: all 0.3s;
+  padding-bottom: 16px;
+}
+.greendot {
+  height: 6px;
+  width: 6px;
+  border-radius: 20%;
+  background-color: rgb(2, 30, 2);
+  animation:blink 2s infinite;
+}
+
+div.three {
+  background-color: rgb(212, 210, 213);
+  transition: all 0.3s;
+}
+
+div.four {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: rgb(212, 210, 213);
+  transition: all 0.3s;
+}
+
+div.five {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: rgb(212, 210, 213);
+  transition: all 0.3s;
+}
+
+div.six {
+  background-color: rgb(212, 210, 213);
+  transition: all 0.3s;
+}
+
+div.seven {
+  background-color: rgb(212, 210, 213);
+  transition: all 0.3s;
+}
+
+div.box1 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  text-decoration: none;
+}
+
+div.boldtext {
+  display: flex;
+  padding: 2em;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  font-size: x-large;
+}
+
+div.two {
+  text-align: left;
+  padding-bottom: 13px;
+  font-size: small;
+  padding: 1em;
+}
+
+div.three {
+  text-align: left;
+  font-size: small;
+  padding-bottom: 2em;
+  padding-left: 1em;
+}
+div.four {
+  text-align: left;
+  font-size: larger;
+  padding-top: 4em;
+  padding-left: 2em;
+}
+.h3 {
+  text-indent: 53px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+div.five {
+  font-size: small;
+  padding-left: 3em;
+  justify-content: space-between;
+  padding-top: 3em;
+}
+div.six {
+  align-content: center;
+  padding-left: 4em;
+  color: white;
+  background-color: black;
+}
+div.seven {
+  align-content: center;
+  padding-left: 5em;
+  color: black;
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}
+div.one:hover {
+  transform: translateY(-5px);
+  box-shadow: 20px;
+}
+div.two:hover {
+  transform: translateY(-3px);
+  box-shadow: 3em;
+}
+div.three:hover {
+  transform: translateY(-3px);
+  box-shadow: 20em;
+}
+div.four:hover {
+  transform: translateY(-4px);
+  box-shadow: 20em;
+}
+div.five:hover {
+  transform: translateY(-4px);
+  box-shadow: 2em;
+}
+div.six:hover {
+  transform: translateY(-4px);
+  box-shadow: 2em;
+}
+div.seven:hover {
+  transform: translateY(-4px);
+  box-shadow: 2em;
+}
